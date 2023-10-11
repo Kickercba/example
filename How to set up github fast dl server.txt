@@ -1,0 +1,26 @@
+set up a github account and create a new respitory
+
+download git https://git-scm.com/downloads
+
+in cmd run git clone respitory link in github
+
+cd respitory name
+
+should make a folder in local disk open that and insert a tf folder, a maps folder in the tf folder and a index.html
+
+insert maps into the /tf/maps folder
+
+in cmd do git add .
+
+git comit -m "add comment"
+
+git push
+
+might have a problem with file size but should mostly work
+
+on github you should see it getting added to the respitory after a refresh, goto setting and page, set it up 
+to run from main and root it should run the index.html
+
+after its all checked goto your server and in server.cfg add sv_downloadurl "website/tf"
+
+the clients should now be able to download the maps
